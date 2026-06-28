@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopHub - Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <a href="index.html" class="logo">ShopHub</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="cart.html" class="active cart-link">
+          Cart (<span id="cart-count">0</span>)
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <h1>Your Cart</h1>
+    <div id="cart-content"></div>
+  </main>
+
+  <script src="script.js"></script>
+  <script>
+    displayCart();
+  </script>
+</body>
+</html>
